@@ -1,0 +1,88 @@
+/*************************************Tag Selectors*****************************/
+body{
+margin: 0;
+/*font-family: Georgia, serif;*/
+	/*font-family: Geneva,Tahoma,Verdana,sans-serif; */
+font-family: 'Acme', sans-serif;
+   text-align: center;
+
+}
+
+/*div{
+   background-color: #E4F9F5;
+}*/
+
+h1{
+  color: #ff6363;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 562.5%; /* in font-size 100% = 16px =1em !!!*/
+  margin: 50px auto 0 auto;
+}
+h2{
+  color: #c70039;
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  color: #d7385e;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*************************************CLASS Selectors (Class have to start with  dot (.) - can use multy times)*****************************/
+.h2{
+  color: #e58a8a;
+  font-family: 'Montserrat', sans-serif;
+}
+.top-container{
+   background-color: #E4F9F5;
+   padding-top: 100px;
+   position: relative;
+
+}
+
+
+.Tcloud{
+      bottom:   510px;
+      position: absolute;
+      width: 16%;
+}
+
+.Bcloud{
+  position: absolute;
+  right: 815px;
+  top: 394px;
+  width: 16%;
+}
+.mount{
+padding-top: 10px;
+}
+
+
+.underline{
+  text-decoration: underline;
+  text-decoration-color: #2a7886;
+  text-decoration-style: solid;
+}
+
+.middle-container{
+
+}
+
+.profilepic{
+border: 2px solid #c70039;
+border-radius: 150px 150px / 90px;
+margin-top: 6px;
+width: 10%;
+}
+
+.bottom-container{
+
+}
+
+
+/************************CLASS Selectors (Class have to start with   (#) - can use id only in one time and only one id for one element  unlike class )********************/
+#sub{
+  font-size: 22px;
+}
